@@ -1,7 +1,8 @@
 var gulp = require('gulp');
-var shell = require('gulp-shell')
-
-gulp.task('default', ['restore','build']);
+ shell = require('gulp-shell');
+ watch = require('gulp-watch');
+ 
+gulp.task('default', ['restore','build', 'watch']);
 
 gulp.task('restore', shell.task([
   'dnu restore ./src/CoreConsoleApp*'
@@ -16,5 +17,5 @@ gulp.task('test', shell.task([
 ]));
 
 gulp.task('watch', function () {
-  gulp.watch('*.cs', ['test']);
+  gulp.watch('./src/*/*.cs', ['test']);
 });
