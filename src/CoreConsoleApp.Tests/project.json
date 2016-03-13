@@ -6,19 +6,17 @@
   "projectUrl": "",
   "licenseUrl": "",
 
-  "compilationOptions": {
-    "emitEntryPoint": true
-  },
-
   "tooling": {
     "defaultNamespace": "CoreConsoleApp.Tests"
   },
 
   "dependencies": {
+      "xunit": "2.1.0",
+      "xunit.runner.dnx": "2.1.0-rc1-build204"
   },
 
   "commands": {
-    "CoreConsoleApp": "CoreConsoleApp.Tests"
+    "test": "xunit.runner.dnx"
   },
 
   "frameworks": {
