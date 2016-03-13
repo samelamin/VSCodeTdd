@@ -1,0 +1,19 @@
+{
+  "name": "coreconsoleapp",
+  "version": "1.0.0",
+  "description": "dot net core sample app",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samelamin/VSCodeTdd.git"
+  },
+  "author": "Sam Elamin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samelamin/VSCodeTdd/issues"
+  },
+  "homepage": "https://github.com/samelamin/VSCodeTdd#readme"
+}
