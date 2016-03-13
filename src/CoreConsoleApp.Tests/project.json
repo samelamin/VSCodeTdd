@@ -1,6 +1,6 @@
 {
   "version": "1.0.0-*",
-  "description": "CoreConsoleApp Console Application",
+  "description": "Console Application Tests",
   "authors": [ "" ],
   "tags": [ "" ],
   "projectUrl": "",
@@ -11,14 +11,14 @@
   },
 
   "tooling": {
-    "defaultNamespace": "CoreConsoleApp"
+    "defaultNamespace": "CoreConsoleApp.Tests"
   },
 
   "dependencies": {
   },
 
   "commands": {
-    "CoreConsoleApp": "CoreConsoleApp"
+    "CoreConsoleApp": "CoreConsoleApp.Tests"
   },
 
   "frameworks": {
